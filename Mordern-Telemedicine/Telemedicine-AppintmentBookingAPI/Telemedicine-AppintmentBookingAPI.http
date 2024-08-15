@@ -1,0 +1,6 @@
+@Telemedicine_AppintmentBookingAPI_HostAddress = http://localhost:5072
+
+GET {{Telemedicine_AppintmentBookingAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
