@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3SaMGB8Zz9vUwibnOESdJ3KsG+SpWfLkApKsDG1VbQY=",
+  "Source": "Telemedicine-AuthAPI",
+  "BasePath": "_content/Telemedicine-AuthAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

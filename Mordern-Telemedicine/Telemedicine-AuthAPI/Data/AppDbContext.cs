@@ -1,0 +1,20 @@
+﻿using Telemedicine_AuthAPI.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace Mango.Services.AuthAPI.Data
+{
+    public class AppDBContext : IdentityDbContext<ApplicationUser>
+    {
+
+        public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
+        {
+
+        }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+
+    }
+}
