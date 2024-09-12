@@ -7,7 +7,9 @@ namespace Telemedicine_AuthAPI.Service.IService
     {
         Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto);
 
-       Task<String> Register(RegistrationRequestDto registrationRequestDto);
+        Task<String> Register(RegistrationRequestDto registrationRequestDto);
+
+        Task<bool> AssignRole(string email,string rolename); 
 
     }
 }

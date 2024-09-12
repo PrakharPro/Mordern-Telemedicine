@@ -80,5 +80,26 @@ namespace Telemedicine_AuthAPI.Service
             }
             return "Error Encountered";
         }
+
+        public async Task<bool> AssignRole(string email, string rolename)
+        {
+            var user = _db.ApplicationUsers.FirstOrDefault(u => u.Email.ToLower() == email.ToLower());
+            if (user != null)
+            {
+                if (!_roleManager.RoleExistsAsync(rolename).GetAwaiter().GetResult())
+                {
+                    //create role if it doesn't exist
+                    _roleManager.CreateAsync(new IdentityRole(rolename)).GetAwaiter().GetResult();
+                }
+
+                await _userManager.AddToRoleAsync(user,rolename);
+                return true;
+            }
+
+            return false;
+
+        }
+
+
     }
 }

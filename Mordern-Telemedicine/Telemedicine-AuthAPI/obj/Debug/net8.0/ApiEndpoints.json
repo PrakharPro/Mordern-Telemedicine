@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "Telemedicine_AuthAPI.Controllers.AuthAPIController",
+    "Method": "AssignRole",
+    "RelativePath": "api/auth/AssignRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rolename",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Telemedicine_AuthAPI.Controllers.AuthAPIController",
+    "Method": "Login",
+    "RelativePath": "api/auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Telemedicine_AuthAPI.Models.Dto.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Telemedicine_AuthAPI.Controllers.AuthAPIController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registrationRequestDto",
+        "Type": "Telemedicine_AuthAPI.Models.Dto.RegistrationRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

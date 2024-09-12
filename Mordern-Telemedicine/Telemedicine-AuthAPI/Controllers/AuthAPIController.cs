@@ -47,5 +47,19 @@ namespace Telemedicine_AuthAPI.Controllers
             }
             return BadRequest(response);
         }
+
+        [HttpPost("AssignRole")]
+        public async Task<IActionResult> AssignRole([FromBody] RegistrationRequestDto model)
+        {
+            var response = new ResponseDto();
+            var result = await _authService.AssignRole(model.Email,model.Role.ToUpper());
+            if (!result)
+            {
+                response.IsSuccess = false;
+               response.Message = "Error Encountered";
+                return BadRequest(response);
+            }
+            return Ok(response);
+        }
     }
 }

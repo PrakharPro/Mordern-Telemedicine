@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KOPWHKuTtlwrrwmH9wFJNNZ36DKwl1GKPycFiWqeINQ=",
+  "Source": "Telemedicine-AppintmentBookingAPI",
+  "BasePath": "_content/Telemedicine-AppintmentBookingAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
