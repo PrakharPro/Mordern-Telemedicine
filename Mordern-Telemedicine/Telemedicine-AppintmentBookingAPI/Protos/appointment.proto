@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "AppointmentService";
+
+service Appointment {
+  // Register a doctor
+  rpc RegisterDoctor (DoctorRequest) returns (DoctorResponse);
+}
+
+// Doctor information that will be sent from Auth service
+message DoctorRequest {
+  string userId = 1;
+  string doctorName = 2;
+  string phone = 3;
+  string email = 4;
+  string role = 5;
+}
+
+// Response from the Appointment service
+message DoctorResponse {
+  bool success = 1;
+  string message = 2;
+}

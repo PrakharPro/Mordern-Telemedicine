@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Telemedicine-AuthAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4632fe057bbd17396311473b2228c4958bd68232")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a9c7e899af87a3cfb4ad7b404b3a8254114ee2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Telemedicine-AuthAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Telemedicine-AuthAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

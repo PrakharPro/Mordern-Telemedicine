@@ -68,6 +68,14 @@ namespace Telemedicine_AuthAPI.Service
 
                 if (result.Succeeded)
                 {
+                    var doctorRegistrationService = new DoctorRegistrationService("https://localhost:5001"); // Use actual Appointment service URL
+                    await doctorRegistrationService.RegisterDoctorInAppointmentService(
+                        applicationUser.Id,
+                        registrationRequestDto.Name,
+                        registrationRequestDto.PhoneNumber,
+                        registrationRequestDto.Email,
+                        registrationRequestDto.Role
+                    );
                     return "";
                 }
                 else
@@ -99,6 +107,7 @@ namespace Telemedicine_AuthAPI.Service
             return false;
 
         }
+
 
 
     }

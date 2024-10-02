@@ -8,6 +8,10 @@ C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\T
 C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Grpc.Net.Common.dll
 C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Public\Telemedicine Project\Mordern-Telemedicine\Mordern-Telemedicine\Telemedicine-AuthAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll

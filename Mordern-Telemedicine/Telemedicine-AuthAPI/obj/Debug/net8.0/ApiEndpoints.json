@@ -8,14 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "rolename",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "model",
+        "Type": "Telemedicine_AuthAPI.Models.Dto.RegistrationRequestDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
